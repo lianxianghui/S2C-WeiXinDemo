@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#E6FAFAFA"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@drawable/state_checked_color_ff1aad19_unchecked_color_ff929292"
+        app:itemIconTint="@drawable/state_checked_color_ff1aad19_unchecked_color_ff929292"
+        app:menu="@menu/main_tab_bar_page_activity_bottom_nav_menu" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>				   

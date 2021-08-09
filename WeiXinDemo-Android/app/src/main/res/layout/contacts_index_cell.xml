@@ -1,0 +1,29 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/index_cell"
+	android:alpha="1"
+	android:background="@drawable/bg_normalcolor_00ffffff_pressedcolor_00ffffff"
+	android:layout_height="20.0dp"
+	android:layout_width="match_parent">
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id="@+id/label"
+		android:alpha="1"
+		android:background="#00FFFFFF"
+		android:text="@string/contacts_fragment_contacts_index_cell_label"
+		android:fontFamily="sans-serif"
+		android:textColor="#FF939396"
+		android:textSize="12sp"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginStart="8.0dp"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="0dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

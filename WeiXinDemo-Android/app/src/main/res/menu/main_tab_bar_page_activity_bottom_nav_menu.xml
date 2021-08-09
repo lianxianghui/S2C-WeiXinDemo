@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="0"
+        android:icon="@drawable/state_weixin_main_tab_bar_page_fragment_item1_inner_selected_icon_weixin_main_tab_bar_page_fragment_item1_inner_icon"
+        android:title="@string/main_tab_bar_page_fragment_item1_inner_text" />
+    <item
+        android:id="@+id/item2"
+        android:orderInCategory="1"
+        android:icon="@drawable/state_weixin_main_tab_bar_page_fragment_item2_inner_selected_icon_weixin_main_tab_bar_page_fragment_item2_inner_icon"
+        android:title="@string/main_tab_bar_page_fragment_item2_inner_text" />
+    <item
+        android:id="@+id/item3"
+        android:orderInCategory="2"
+        android:icon="@drawable/state_weixin_main_tab_bar_page_fragment_item3_inner_selected_icon_weixin_main_tab_bar_page_fragment_item3_inner_icon"
+        android:title="@string/main_tab_bar_page_fragment_item3_inner_text" />
+    <item
+        android:id="@+id/item4"
+        android:orderInCategory="3"
+        android:icon="@drawable/state_weixin_main_tab_bar_page_fragment_item4_inner_selected_icon_weixin_main_tab_bar_page_fragment_item4_inner_icon"
+        android:title="@string/main_tab_bar_page_fragment_item4_inner_text" />
+</menu>

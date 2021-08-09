@@ -1,0 +1,10 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/gap_cell"
+	android:alpha="1"
+	android:background="@drawable/bg_normalcolor_00ffffff_pressedcolor_00ffffff"
+	android:layout_height="20.0dp"
+	android:layout_width="match_parent" />
+

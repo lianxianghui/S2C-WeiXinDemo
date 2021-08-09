@@ -1,0 +1,137 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/conversation_cell"
+	android:alpha="1"
+	android:background="@drawable/bg_normalcolor_ffffffff_pressedcolor_80ffffff"
+	android:layout_height="60.0dp"
+	android:layout_width="match_parent">
+
+	<android.view.View
+		android:id="@+id/bottom_line"
+		android:alpha="1"
+		android:background="#FFD8D8D8"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:layout_marginEnd="0dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="0dp"
+		app:layout_constraintStart_toStartOf="@+id/left_image"
+		android:layout_marginStart="0dp"
+		android:layout_height="0.5dp"
+		android:layout_width="0dp" />
+
+	<androidx.appcompat.widget.AppCompatImageView
+		android:id="@+id/no_disturbing_image"
+		android:alpha="1"
+		app:srcCompat="@drawable/weixin_conversationlist_no_disturbing_image"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:layout_marginEnd="12.0dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="10.0dp"
+		android:layout_width="13.0dp"
+		android:layout_height="16.0dp" />
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id="@+id/time"
+		android:alpha="1"
+		android:background="#00FFFFFF"
+		android:text="@string/conversation_list_conversation_cell_conversation_list_conversation_cell_time"
+		android:fontFamily="sans-serif"
+		android:textColor="#FF9E9E9E"
+		android:textSize="11sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:layout_marginEnd="12.0dp"
+		app:layout_constraintTop_toTopOf="@+id/title"
+		android:layout_marginTop="4.0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id="@+id/latest_message"
+		android:alpha="1"
+		android:background="#00FFFFFF"
+		android:text="@string/conversation_list_conversation_cell_conversation_list_conversation_cell_latest_message"
+		android:fontFamily="sans-serif"
+		android:textColor="#FF9E9E9E"
+		android:textSize="12sp"
+		app:layout_constraintBottom_toBottomOf="@+id/left_image"
+		android:layout_marginBottom="4.0dp"
+		app:layout_constraintStart_toStartOf="@+id/title"
+		android:layout_marginStart="0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id="@+id/title"
+		android:alpha="1"
+		android:background="#00FFFFFF"
+		android:text="@string/conversation_list_conversation_cell_conversation_list_conversation_cell_title"
+		android:fontFamily="sans-serif"
+		android:textColor="#FF1B1B1B"
+		android:textSize="14sp"
+		android:gravity="start"
+		app:layout_constraintTop_toTopOf="@+id/point_for_bottom_of_title_to_top_of_left_image"
+		android:layout_marginTop="0dp"
+		app:layout_constraintStart_toEndOf="@+id/left_image"
+		android:layout_marginStart="15.0dp"
+		android:layout_height="23.0dp"
+		android:layout_width="wrap_content" />
+
+	<androidx.appcompat.widget.AppCompatImageView
+		android:id="@+id/left_image"
+		android:alpha="1"
+		app:srcCompat="@drawable/weixin_conversationlist_group_image"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginStart="8.0dp"
+		android:layout_width="44.0dp"
+		android:layout_height="44.0dp"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="0dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="0dp" />
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/circle"
+		android:alpha="1"
+		android:background="@drawable/bg_color_ffff0008_radius4"
+		android:layout_height="8.0dp"
+		android:layout_width="8.0dp"
+		app:layout_constraintTop_toTopOf="@+id/point_for_centery_of_circle"
+		android:layout_marginTop="0dp"
+		app:layout_constraintBottom_toBottomOf="@+id/point_for_centery_of_circle"
+		android:layout_marginBottom="0dp"
+		app:layout_constraintStart_toStartOf="@+id/point_for_centerx_of_circle"
+		android:layout_marginStart="0dp"
+		app:layout_constraintEnd_toEndOf="@+id/point_for_centerx_of_circle"
+		android:layout_marginEnd="0dp" />
+
+	<android.widget.Space
+		android:id="@+id/point_for_centery_of_circle"
+		app:layout_constraintBottom_toTopOf="@+id/left_image"
+		android:layout_marginBottom="0dp"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginStart="8.0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<android.widget.Space
+		android:id="@+id/point_for_centerx_of_circle"
+		app:layout_constraintEnd_toEndOf="@+id/left_image"
+		android:layout_marginEnd="0dp"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="8.0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<android.widget.Space
+		android:id="@+id/point_for_bottom_of_title_to_top_of_left_image"
+		app:layout_constraintBottom_toTopOf="@+id/left_image"
+		android:layout_marginBottom="2.0dp"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginStart="8.0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
