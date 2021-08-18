@@ -25,7 +25,7 @@
 		android:id="@+id/status_label"
 		android:alpha="1"
 		android:background="#00FFFFFF"
-		android:text="@string/conversation_list_fragment_conversation_list_login_status_cell_status_label"
+		android:text="@string/conversation_list_login_status_cell_status_label"
 		android:fontFamily="sans-serif"
 		android:textColor="#FF939396"
 		android:textSize="12sp"

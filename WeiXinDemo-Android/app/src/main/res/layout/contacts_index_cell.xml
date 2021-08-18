@@ -12,7 +12,7 @@
 		android:id="@+id/label"
 		android:alpha="1"
 		android:background="#00FFFFFF"
-		android:text="@string/contacts_fragment_contacts_index_cell_label"
+		android:text="@string/contacts_index_cell_label"
 		android:fontFamily="sans-serif"
 		android:textColor="#FF939396"
 		android:textSize="12sp"

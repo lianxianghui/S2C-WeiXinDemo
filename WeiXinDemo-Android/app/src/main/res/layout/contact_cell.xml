@@ -38,7 +38,7 @@
 		android:id="@+id/name"
 		android:alpha="1"
 		android:background="#00FFFFFF"
-		android:text="@string/contacts_fragment_contact_cell_name"
+		android:text="@string/contact_cell_name"
 		android:fontFamily="sans-serif"
 		android:textColor="#FF1B1B1B"
 		android:textSize="14sp"
